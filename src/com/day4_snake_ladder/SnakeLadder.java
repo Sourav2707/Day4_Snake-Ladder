@@ -35,6 +35,8 @@ public class SnakeLadder {
                     break;
             }
             System.out.println("current position : " + position+"\n");
+            if(position > 100)
+                position = 0; // there are possibilities the position may exclued 100 between 101 to 105. so making the position as 0.
         }while (position < 100);
     }
 }
