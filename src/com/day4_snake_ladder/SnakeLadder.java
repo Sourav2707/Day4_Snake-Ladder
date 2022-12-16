@@ -4,11 +4,11 @@ public class SnakeLadder {
     static final int startPosition = 0;
     static final int ladderOption = 2;
     static final int snakeOption = 1;
-    static int position;
-     static int option;
-    static int roll = 0;
-    public static void main(String[] args) {
-        System.out.println("Welcome to snake and ladder program");
+    int position;
+    int option;
+    int roll = 0;
+
+    public void player() {
         position = startPosition;
         roll++;
         int dieNumber;
